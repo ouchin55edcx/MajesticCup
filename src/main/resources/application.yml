@@ -1,0 +1,12 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/majesticcup
+
+jwt:
+  secret: your_jwt_secret_key_here
+  expiration: 86400000 # 24 hours
+
+logging:
+  level:
+    org.springframework.security: DEBUG
